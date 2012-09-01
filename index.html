@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title></title>
+    
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      
+      #swatch {
+        width: 32px;
+        height: 32px;
+        border: 1px #555 solid;
+        margin: 5px auto 0;
+      }
+    </style>
+</head>
+<body>
+    <div id="swatch"></div>
+    
+    <script type="text/javascript">
+      function setColor(color) {
+        var swatch = document.getElementById('swatch');
+        
+        swatch.style.backgroundColor = '#' + color;
+      }
+    </script>
+</body>
+</html>
